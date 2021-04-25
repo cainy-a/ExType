@@ -72,13 +72,13 @@ namespace ExType
         {
             switch (obj)
             {
-                case int:
-                case short:
-                case long:
+                case int _:
+                case short _:
+                case long _:
                     return (long) obj;
-                case uint:
-                case ushort:
-                case ulong:
+                case uint _:
+                case ushort _:
+                case ulong _:
                     try
                     {
                         // ReSharper disable once PossibleInvalidCastException
@@ -167,9 +167,9 @@ namespace ExType
         {
             switch (obj)
             {
-                case int:
-                case short:
-                case long:
+                case int _:
+                case short _:
+                case long _:
                     try
                     {
                         // ReSharper disable once PossibleInvalidCastException
@@ -179,9 +179,9 @@ namespace ExType
                     {
                         throw new TypeConversionException("Value was negative");
                     }
-                case uint:
-                case ushort:
-                case ulong:
+                case uint _:
+                case ushort _:
+                case ulong _:
                     return (ulong) obj;
                 case bool b:
                     return (ulong) (b ? 1 : 0);
