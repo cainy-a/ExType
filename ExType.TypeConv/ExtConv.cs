@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using ExType.Shared;
 
-namespace ExType
+namespace ExType.TypeConv
 {
     /// <summary>
     /// Extension methods to convert between builtin types - object.To[type]()
@@ -10,7 +11,7 @@ namespace ExType
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     [SuppressMessage("ReSharper", "UnusedType.Global")]
     [SuppressMessage("ReSharper", "TailRecursiveCall")]
-    public static partial class ExtConverts
+    public static partial class ExtConv
     {
         /// <summary>
         /// Converts a type to bool. See documentation for specifics.

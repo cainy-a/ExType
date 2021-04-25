@@ -1,12 +1,13 @@
 using System;
 using System.Diagnostics.CodeAnalysis;
+using ExType.Shared;
 
-namespace ExType
+namespace ExType.TypeConv
 {
     [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     [SuppressMessage("ReSharper", "UnusedType.Global")]
-    partial class ExtConverts
+    partial class ExtConv
     {
         // Signed
         /// <summary>
