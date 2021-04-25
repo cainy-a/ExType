@@ -7,7 +7,7 @@ namespace ExType.TypeConv
     [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     [SuppressMessage("ReSharper", "UnusedType.Global")]
-    partial class ExtConv
+    partial class BuiltinConv
     {
         // Signed
         /// <summary>

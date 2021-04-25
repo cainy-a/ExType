@@ -11,7 +11,7 @@ namespace ExType.TypeConv
     [SuppressMessage("ReSharper", "UnusedMember.Global")]
     [SuppressMessage("ReSharper", "UnusedType.Global")]
     [SuppressMessage("ReSharper", "TailRecursiveCall")]
-    public static partial class ExtConv
+    public static partial class BuiltinConv
     {
         /// <summary>
         /// Converts a type to bool. See documentation for specifics.
