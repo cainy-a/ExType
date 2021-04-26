@@ -40,7 +40,7 @@ namespace ExType.TypeConv
                     return (decimal) obj != 0;
                 // strings
                 case string s:
-                    if (double.TryParse(s, out var sd))
+                    if (decimal.TryParse(s, out var sd))
                         return sd.ToBool();
                     return s.Length > 0;
                 // chars
