@@ -29,7 +29,7 @@ namespace ExType.Data
         /// <param name="json"></param>
         /// <returns></returns>
         /// <exception cref="DataConversionException"></exception>
-        public static T UnPack<T>(this string json)
+        public static T FromJson<T>(this string json)
         {
             try
             {
